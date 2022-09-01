@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Calculation</title>
+</head>
+<body>
+
+
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Task 5</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>
+            <p></p>
+
+            <br>
+            <p>Create a php script that checks to see if a user has a winning lottery ticket. <br>
+                The user must enter the day the lottery draw takes place - Lucky Lottery draws only take place on Wednesdays and Saturdays.
+                <br>
+                If they enter a day that is not a Wednesday or a Saturday, they receive a message – ‘The lottery draw only takes place on either a Saturday or a Wednesday’.
+                <br>
+                The user must also enter what colour their ticket is and what the four digit number on their ticket is.
+                <br>
+                Both the colour and the number must match for the ticket to be considered a winner. You can hard code the winning colour and ticket number in to separate variables.
+
+            </p>
+            <form action="data.php" method="post">
+                <label>
+                    Enter Day:
+                    <input type="text" name="day">
+                </label>
+                <br>
+                <label>
+                   Enter Colour:
+                    <input type="text" name="colour">
+                </label>
+                <br>
+                <label>
+                    Enter number :
+                    <input type="text" name="number">
+                </label>
+                <br>
+                <button type="submit" name="submit" value="submit" >Play!</button>
+            </form>
+
+        </td>
+
+
+
+    </tr>
+
+    </tbody>
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

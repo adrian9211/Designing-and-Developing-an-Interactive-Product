@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="02d1cfcd-0f2b-43b9-9306-58ca3c666a0f" name="sftp">
+        <fileTransfer rootFolder="/public_html" accessType="SFTP" host="webdev.edinburghcollege.ac.uk" port="22" sshConfigId="d3a0fedb-bffd-4c07-860f-326e261f4ee4" sshConfig="HNCWEBMR20@webdev.edinburghcollege.ac.uk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

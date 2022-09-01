@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="webdev.edinburghcollege.ac.uk" id="d3a0fedb-bffd-4c07-860f-326e261f4ee4" port="22" nameFormat="DESCRIPTIVE" username="HNCWEBMR20" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

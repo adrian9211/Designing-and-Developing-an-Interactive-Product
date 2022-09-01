@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="ssh.organicme.uk" id="c54f156f-ba02-487d-9e70-f2769b5b5c1a" port="22" nameFormat="DESCRIPTIVE" username="organicme.uk" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
