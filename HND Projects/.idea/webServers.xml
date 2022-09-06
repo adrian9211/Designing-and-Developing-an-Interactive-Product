@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0e069eba-0f3b-426e-88c9-2ba62bba5d12" name="sftp">
+        <fileTransfer rootFolder="/customers/9/e/1/organicme.uk/httpd.www" accessType="SFTP" host="webdev.edinburghcollege.ac.uk" port="22" sshConfigId="c54f156f-ba02-487d-9e70-f2769b5b5c1a" sshConfig="HNCWEBMR20@webdev.edinburghcollege.ac.uk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a630a6f0-8528-4d0e-8a01-cba3b3d7ef58" name="one.com">
+        <fileTransfer accessType="SFTP" host="webdev.edinburghcollege.ac.uk" port="22" sshConfigId="c54f156f-ba02-487d-9e70-f2769b5b5c1a" sshConfig="HNCWEBMR20@webdev.edinburghcollege.ac.uk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e7437294-76fd-456f-8e9e-e43337bef021" name="digitalOcean">
+        <fileTransfer accessType="SFTP" host="webdev.edinburghcollege.ac.uk" port="22" sshConfigId="c54f156f-ba02-487d-9e70-f2769b5b5c1a" sshConfig="HNCWEBMR20@webdev.edinburghcollege.ac.uk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="23e6051f-204e-465e-bd18-abdfadd447ef" name="College AWS">
+        <fileTransfer accessType="SFTP" host="webdev.edinburghcollege.ac.uk" port="22" sshConfigId="c54f156f-ba02-487d-9e70-f2769b5b5c1a" sshConfig="HNCWEBMR20@webdev.edinburghcollege.ac.uk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

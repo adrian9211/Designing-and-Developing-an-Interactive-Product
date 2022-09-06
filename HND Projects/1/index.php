@@ -25,43 +25,35 @@
     <tr>
         <th scope="row">1</th>
         <td>
-            <p>SWITCH - Calculator</p>
+            <p>we will now create a php script that will ask the user to enter how many number in the Fibonacci series they wish to view.
+                <br>
+                The user will then be show the sequence of numbers. The sequence will always start from 0.
+                <br>
 
-            <form action="calculation.php" method="post">
+
+                For example, if user enters 10, they are shown the first 10 numbers in the Fibonacci series (0, 1, 1, 2, 3, 5, 8, 13, 21, 34)
+                <br>
+
+            </p>
+
+            <form action="whileloop.php" method="post">
+                <br>
+                <button type="submit" name="submit" value="submit" >Submit</button>
+            </form>
+
+
+            <br>
+            <br>
+
+            <form action="fibonacci.php" method="post">
                 <label>
-                    Number 1:
+                    Provide a number of sequence for Fibonacci:
                     <input type="number" name="number1">
                 </label>
                 <br>
-                <label>
-                   Number 2:
-                    <input type="number" name="number2">
-                </label>
                 <br>
-                <br>
-                <p>Calculations</p>
-                <label>
-                    Add
-                    <input type="radio" name="add">
-                </label>
-                <label>
-                    Substract
-                    <input type="radio" name="substract">
-                </label>
-                <label>
-                    Multiply
-                    <input type="radio" name="multiply">
-                </label>
-                <label>
-                    Divide
-                    <input type="radio" name="divide">
-                </label>
-
-
-
-                <button type="submit" name="submit" value="submit" >Calculate</button>
+                <button type="submit" name="submit" value="submit" >Submit</button>
             </form>
-
         </td>
 
 

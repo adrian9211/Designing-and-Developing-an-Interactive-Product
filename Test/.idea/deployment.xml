@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="College AWS" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="College AWS">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/Richard Classes/HND Projects" local="$PROJECT_DIR$/../HND Projects" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="digitalOcean">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/html" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="one.com">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/Topic7" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sftp">
+        <serverdata>
+          <mappings>
+            <mapping deploy="HND/Topic7" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

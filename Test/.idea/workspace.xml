@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HND Projects/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/1/1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/2/1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/3/1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/4/1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/fibonacci.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/whileloop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/Topic 7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/Topic 7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/Topic7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/Topic7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/sshConfigs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/Link to server.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Link to server.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/calculation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EAIu4yyMBEzAIL8QBj505jYybJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/4",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\4" />
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\3" />
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="" />
+      <created>1662032183990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662032183990</updated>
+      <workItem from="1662032185574" duration="28000" />
+      <workItem from="1662032226632" duration="183000" />
+      <workItem from="1662032491968" duration="749000" />
+      <workItem from="1662038555583" duration="30000" />
+      <workItem from="1662038947226" duration="3439000" />
+      <workItem from="1662113126382" duration="18000" />
+      <workItem from="1662125233384" duration="940000" />
+      <workItem from="1662450861107" duration="1372000" />
+      <workItem from="1662461606085" duration="921000" />
+      <workItem from="1662462761444" duration="519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
