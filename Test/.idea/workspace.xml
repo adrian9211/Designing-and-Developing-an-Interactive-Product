@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../HND Projects/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/1/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/2/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/3/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/4/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/fibonacci.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/whileloop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/Topic 7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/Topic 7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/Topic7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/Topic7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/sshConfigs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/.idea/webServers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/Link to server.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Link to server.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/calculation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Topic7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/index.php" afterDir="false" />
+    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="Setup for folders on server">
+      <change afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/uploads/audi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/Link to server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/filedLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/style/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/style/content.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/welcomeMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/1/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/1/Link to server.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/Link to server.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/1/fibonacci.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/carArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/1/whileloop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/2/1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/4/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/4/1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +30,21 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EAIu4yyMBEzAIL8QBj505jYybJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "true",
@@ -51,17 +63,23 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/4",
+    "last_opened_file_path": "E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/Cookies & Sessions",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\Cookies &amp; Sessions" />
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\Arrays Exercise\uploads" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\4" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\3" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,8 +99,16 @@
       <workItem from="1662125233384" duration="940000" />
       <workItem from="1662450861107" duration="1372000" />
       <workItem from="1662461606085" duration="921000" />
-      <workItem from="1662462761444" duration="519000" />
+      <workItem from="1662462761444" duration="23480000" />
     </task>
+    <task id="LOCAL-00001" summary="Setup for folders on server">
+      <created>1662463423405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662463423405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +124,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup for folders on server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup for folders on server" />
   </component>
 </project>

@@ -6,14 +6,14 @@
       <paths name="College AWS">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html/Richard Classes/HND Projects" local="$PROJECT_DIR$/../HND Projects" web="/" />
+            <mapping deploy="/public_html/HND Projects" local="$PROJECT_DIR$/../HND Projects" web="/" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="digitalOcean">
         <serverdata>
           <mappings>
-            <mapping deploy="/var/www/html" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

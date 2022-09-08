@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="webdev.edinburghcollege.ac.uk" id="c54f156f-ba02-487d-9e70-f2769b5b5c1a" port="22" nameFormat="DESCRIPTIVE" username="HNCWEBMR6" useOpenSSHConfig="true" />
+      <sshConfig host="138.68.147.108" id="59b739f3-7370-4bfd-9178-5e4d91349137" keyPath="C:\Users\adria\.ssh\id_ed25519" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

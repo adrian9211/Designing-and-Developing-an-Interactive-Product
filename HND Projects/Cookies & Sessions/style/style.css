@@ -1,0 +1,87 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background: #F0EFE2;
+  color: #777;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #43423F;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+#site_content
+{ width: 837px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 20px 24px 20px 37px;
+  background: #FFF url(content.png) repeat-y;} 
+
+.sidebar
+{ float: right;
+  width: 290px;
+  padding: 0 15px 20px 15px;}
+
+#content
+{ text-align: left;
+  width: 795px;
+  padding: 0;}
+
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+#content ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+
+/*display nav center*/
+#nav
+{ width: 837px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0;}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+    list-style-type: none;
+  padding-top: 50px;
+}
+
+.nav_link {
+ padding: 1rem;
+  font-size: 2rem;
+  margin: 2rem;
+    text-decoration: none !important;
+  background: #c4c3b9;
+  border-radius: 3px;
+  transition: transform .2s;
+}
+
+.nav_link a {
+  color: #000;
+  text-decoration: none;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
