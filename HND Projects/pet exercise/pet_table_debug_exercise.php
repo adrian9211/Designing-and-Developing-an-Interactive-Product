@@ -1,13 +1,12 @@
 <html>
 <body>
 <?php
-$host = "localhost";
-$username = "HNCWEBMR6";
-$password = "HpDPLzWDuw";
-$database = "HNCWEBMR6";
-
+$dbhost = 'localhost';
+$dbuser = 'root';
+$dbpass = '1xCMat5k5Cb4';
+$database = 'PHP_testing_project';
 // Create connection
-$connection = mysqli_connect($host, $username, $password, $database)
+$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $database)
 or die('Could not connect: ' . mysqli_connect_error());
 
 ///run SQL query
