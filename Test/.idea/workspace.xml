@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="Setup for folders on server">
-      <change afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/uploads/audi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/Link to server.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/filedLogin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/style/bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/style/content.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/style/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/welcomeMessage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/1/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/1/Link to server.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/Link to server.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/1/fibonacci.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/carArray.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Arrays Exercise/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/1/whileloop.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/2/1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/4/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/4/1.php" afterDir="false" />
+    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="session and cookies task">
+      <change afterPath="$PROJECT_DIR$/../HND Projects/database/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/pet exercise/pet_table_debug_exercise.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/loginSession.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/members.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/welcomeMessage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -63,20 +57,29 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/Cookies & Sessions",
+    "last_opened_file_path": "E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/registration_and_login",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mariadb"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\registration_and_login" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\Cookies &amp; Sessions" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\Arrays Exercise\uploads" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\4" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\3" />
-      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\1" />
@@ -99,7 +102,8 @@
       <workItem from="1662125233384" duration="940000" />
       <workItem from="1662450861107" duration="1372000" />
       <workItem from="1662461606085" duration="921000" />
-      <workItem from="1662462761444" duration="23480000" />
+      <workItem from="1662462761444" duration="32427000" />
+      <workItem from="1663068766158" duration="18789000" />
     </task>
     <task id="LOCAL-00001" summary="Setup for folders on server">
       <created>1662463423405</created>
@@ -108,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662463423405</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="session and cookies task">
+      <created>1662637119234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662637119234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup for folders on server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup for folders on server" />
+    <MESSAGE value="session and cookies task" />
+    <option name="LAST_COMMIT_MESSAGE" value="session and cookies task" />
   </component>
 </project>

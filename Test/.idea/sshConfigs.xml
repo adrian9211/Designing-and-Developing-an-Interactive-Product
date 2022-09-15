@@ -4,6 +4,7 @@
     <configs>
       <sshConfig authType="PASSWORD" host="webdev.edinburghcollege.ac.uk" id="c54f156f-ba02-487d-9e70-f2769b5b5c1a" port="22" nameFormat="DESCRIPTIVE" username="HNCWEBMR6" useOpenSSHConfig="true" />
       <sshConfig host="138.68.147.108" id="59b739f3-7370-4bfd-9178-5e4d91349137" keyPath="C:\Users\adria\.ssh\id_ed25519" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+      <sshConfig host="23.102.4.246" id="794ab2dc-23ae-4d76-a3d0-1ae5ee008444" keyPath="C:\Users\adria\.ssh\bitnami-azure-782b428e-6c97-44ee-a0ed-873a8fc2cba0.ppk" port="22" nameFormat="DESCRIPTIVE" username="bitnami" useOpenSSHConfig="true" />
     </configs>
   </component>
 </project>

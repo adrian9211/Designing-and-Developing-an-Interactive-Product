@@ -17,7 +17,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="e7437294-76fd-456f-8e9e-e43337bef021" name="digitalOcean">
-        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="138.68.147.108" port="22" sshConfigId="59b739f3-7370-4bfd-9178-5e4d91349137" sshConfig="root@138.68.147.108:22 key" keyPair="true">
+        <fileTransfer rootFolder="/var/www/html/Designing-and-Developing-an-Interactive-Product" accessType="SFTP" host="138.68.147.108" port="22" sshConfigId="59b739f3-7370-4bfd-9178-5e4d91349137" sshConfig="root@138.68.147.108:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -25,6 +25,13 @@
       </webServer>
       <webServer id="23e6051f-204e-465e-bd18-abdfadd447ef" name="College AWS">
         <fileTransfer accessType="SFTP" host="webdev.edinburghcollege.ac.uk" port="22" sshConfigId="c54f156f-ba02-487d-9e70-f2769b5b5c1a" sshConfig="HNCWEBMR6@webdev.edinburghcollege.ac.uk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="be4deb02-4837-4f32-ba7d-97602187530e" name="azure-bitnami">
+        <fileTransfer rootFolder="/home/bitnami/htdocs" accessType="SFTP" host="23.102.4.246" port="22" sshConfigId="794ab2dc-23ae-4d76-a3d0-1ae5ee008444" sshConfig="bitnami@23.102.4.246:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
