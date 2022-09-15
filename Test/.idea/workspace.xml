@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="session and cookies task">
-      <change afterPath="$PROJECT_DIR$/../HND Projects/database/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/pet exercise/pet_table_debug_exercise.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/loginSession.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/members.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/welcomeMessage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="sign up and login task">
+      <change beforePath="$PROJECT_DIR$/../HND Projects/registration_and_login/loginSession.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/loginSession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/registration_and_login/members.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/members.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/registration_and_login/welcomeMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/welcomeMessage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +94,7 @@
       <workItem from="1662450861107" duration="1372000" />
       <workItem from="1662461606085" duration="921000" />
       <workItem from="1662462761444" duration="32427000" />
-      <workItem from="1663068766158" duration="18789000" />
+      <workItem from="1663068766158" duration="19813000" />
     </task>
     <task id="LOCAL-00001" summary="Setup for folders on server">
       <created>1662463423405</created>
@@ -119,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662637119234</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sign up and login task">
+      <created>1663237442539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663237442539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup for folders on server" />
     <MESSAGE value="session and cookies task" />
-    <option name="LAST_COMMIT_MESSAGE" value="session and cookies task" />
+    <MESSAGE value="sign up and login task" />
+    <option name="LAST_COMMIT_MESSAGE" value="sign up and login task" />
   </component>
 </project>

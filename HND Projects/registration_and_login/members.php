@@ -1,27 +1,28 @@
 <?php
 
-require_once('db.php');
-
 session_start();
 
 $user = $_SESSION['user'];
 if ( !isset($_SESSION['logged-in']) || $_SESSION['logged-in'] !== true) {
 
-    header('Location: login.php');
-
+    header('Location:loginSession.php');
     exit;
 
 }
-
 ?>
 
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-    <title>Staff Area</title>
+    <title>Members</title>
+    <link rel="stylesheet" href="style/style.css" title="style" />
 </head>
 <body>
-<div style="margin-top:50px; color:#00F; margin-left:50px; font-size:18px;             position:absolute">Welcome<?php echo "$user";?></div>
+<div id="main">
+    <nav id="nav">
+
+    </nav>
+    <div style="margin-top:50px; color:#00F; margin-left:50px; font-size:18px;             position:absolute">Welcome<?php echo "$user";?></div>
+</div>
 </body>
 </html>

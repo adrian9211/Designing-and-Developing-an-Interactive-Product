@@ -7,23 +7,9 @@
 <body>
 <?php
 session_start(); // Start the session.
-echo $_SESSION['username'];
-if(isset($_SESSION['username']))
+if(isset($_SESSION['user']))
 {
-    //Credentials below
-    $dbhost = 'localhost';
-    $dbuser = 'root';
-    $dbpass = '1xCMat5k5Cb4';
-    $database = 'PHP_testing_project';
-    $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $database) or die('Could not connect: ' . mysqli_connect_error());
-
-    $query = "SELECT Username, FirstName, Surname FROM 'users' WHERE Username = '$_SESSION[username]'";
-    $result = mysqli_query($conn, $query ) or die ("couldn't run query");
-    $count = mysqli_num_rows($result);
-
-    mysqli_close($conn);
     echo "Welcome to your account";            // If the user is logged in, print a greeting.
-
 }
 else
 {
