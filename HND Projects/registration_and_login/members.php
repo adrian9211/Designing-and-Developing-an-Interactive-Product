@@ -5,7 +5,7 @@ session_start();
 $user = $_SESSION['user'];
 if ( !isset($_SESSION['logged-in']) || $_SESSION['logged-in'] !== true) {
 
-    header('Location:loginSession.php');
+    header('Location:login.php');
     exit;
 
 }
@@ -22,7 +22,16 @@ if ( !isset($_SESSION['logged-in']) || $_SESSION['logged-in'] !== true) {
     <nav id="nav">
 
     </nav>
-    <div style="margin-top:50px; color:#00F; margin-left:50px; font-size:18px;             position:absolute">Welcome<?php echo "$user";?></div>
+    <div>Welcome : <?php echo "$user";?></div>
+    <br>
+        <p>Great to see you again</p>
+    <br>
+
+    <form action="logout.php" method="post">
+            <br>
+            <button type="submit" name="submit" value="submit" >Logout</button>
+        </form>
+
 </div>
 </body>
 </html>
