@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="PS-222.4167.33">
+    <data-source name="@localhost [2]" uuid="da99348a-8c1f-4db0-bd87-8cc9baffdb12">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+    </data-source>
+    <data-source name="webdev.edinburghcollege.ac.uk" uuid="b7f08219-08da-4c1d-b47a-c609c3ff6f22">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>HNCWEBMR6</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="college" uuid="bce2242f-bd3a-4c19-9285-cbd4222192ab">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>HNCWEBMR6</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="localhost" uuid="edbdaf97-3d14-41b4-9a0e-1d66c81cba60">
+      <database-info product="MySQL" version="5.5.5-10.6.9-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MARIADB" exact-version="10.6.9" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping />
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>794ab2dc-23ae-4d76-a3d0-1ae5ee008444</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="bitnami-azure" uuid="396f1793-31fd-4f97-ac2f-6d2fafa893ee">
+      <database-info product="MariaDB" version="10.6.9-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="3.0.7" dbms="MARIADB" exact-version="10.6.9" exact-driver-version="3.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="mysql" />
+            <name qname="performance_schema" />
+            <name qname="PHP_testing_project" />
+            <name qname="sys" />
+            <name qname="test" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>794ab2dc-23ae-4d76-a3d0-1ae5ee008444</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>

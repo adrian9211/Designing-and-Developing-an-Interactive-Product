@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="dropdown menu done">
-      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/members.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/register.php" afterDir="false" />
+    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="admin panel tests">
+      <change beforePath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/welcomeMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/Cookies &amp; Sessions/welcomeMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/admin panel/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/admin panel/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/admin panel/members.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/admin panel/members.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +99,7 @@
       <workItem from="1663241865146" duration="5682000" />
       <workItem from="1663329590904" duration="96000" />
       <workItem from="1663672145674" duration="789000" />
-      <workItem from="1663673280837" duration="4195000" />
+      <workItem from="1663673280837" duration="9543000" />
     </task>
     <task id="LOCAL-00001" summary="Setup for folders on server">
       <created>1662463423405</created>
@@ -147,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663248487338</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="admin panel tests">
+      <created>1663679248958</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663679248958</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +174,7 @@
     <MESSAGE value="sign up and login task sorted - session not done" />
     <MESSAGE value="task done" />
     <MESSAGE value="dropdown menu done" />
-    <option name="LAST_COMMIT_MESSAGE" value="dropdown menu done" />
+    <MESSAGE value="admin panel tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin panel tests" />
   </component>
 </project>
