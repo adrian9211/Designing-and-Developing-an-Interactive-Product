@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="task done">
-      <change afterPath="$PROJECT_DIR$/../HND Projects/pet_dropdown_menu/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/pet_dropdown_menu/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HND Projects/pet_dropdown_menu/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/pet exercise/pet_table_debug_exercise.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/pet exercise/pet_table_debug_exercise.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/registration_and_login/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/registration_and_login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/registration_and_login/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/registration_and_login/loginSession.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HND Projects/registration_and_login/welcomeMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/database/welcomeMessage.php" afterDir="false" />
+    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="dropdown menu done">
+      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/members.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/admin panel/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/pet_dropdown_menu",
+    "last_opened_file_path": "E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/admin panel",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -71,11 +70,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\admin panel" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\pet_dropdown_menu" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\registration_and_login" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\Cookies &amp; Sessions" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\Arrays Exercise\uploads" />
-      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\database" />
@@ -101,7 +100,10 @@
       <workItem from="1662461606085" duration="921000" />
       <workItem from="1662462761444" duration="32427000" />
       <workItem from="1663068766158" duration="22451000" />
-      <workItem from="1663241865146" duration="4627000" />
+      <workItem from="1663241865146" duration="5682000" />
+      <workItem from="1663329590904" duration="96000" />
+      <workItem from="1663672145674" duration="789000" />
+      <workItem from="1663673280837" duration="4195000" />
     </task>
     <task id="LOCAL-00001" summary="Setup for folders on server">
       <created>1662463423405</created>
@@ -138,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663240634468</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dropdown menu done">
+      <created>1663248487338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663248487338</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +170,7 @@
     <MESSAGE value="sign up and login task" />
     <MESSAGE value="sign up and login task sorted - session not done" />
     <MESSAGE value="task done" />
-    <option name="LAST_COMMIT_MESSAGE" value="task done" />
+    <MESSAGE value="dropdown menu done" />
+    <option name="LAST_COMMIT_MESSAGE" value="dropdown menu done" />
   </component>
 </project>
