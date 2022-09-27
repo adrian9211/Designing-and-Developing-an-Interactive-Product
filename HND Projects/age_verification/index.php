@@ -36,6 +36,11 @@
                   <input type="password" name="password">
               </label>
               <br>
+              <label>
+                  <label for="birthday">Date of birth:</label>
+                  <input type="date" id="birthday" name="dob">
+              </label>
+              <br>
               <button type="submit" name="submit" value="submit" >Register</button>
           </form>
       </div>

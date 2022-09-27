@@ -19,6 +19,7 @@ if($count==1){
     $_SESSION['logged-in'] = true;
 //    $_SESSION['username'] = $_POST[username];  //set the username session variable
     $_SESSION['user'] = $_POST['username']; //set the username session variable
+
     $seconds = 5 + time();
     setcookie('loggedin', date("F jS - g:i a"), $seconds);
     header("location:members.php");
