@@ -10,6 +10,12 @@ if ( !isset($_SESSION['logged-in']) || $_SESSION['logged-in'] !== true) {
 
 }
 
+$userPrivilege = "SELECT Privileges FROM users WHERE Username = '$user'";
+$userPrivilegeResult= mysqli_query($conn, $userPrivilege) or die ("couldn't run query");
+$userPrivilegeResult2 = $userPrivilegeResult->fetch_assoc()['Privileges'];
+
+
+
 function registerUser() {
             echo "<form action='members.php' method='post'>";
             echo "<tr>";
@@ -19,6 +25,7 @@ function registerUser() {
             echo "<td><input type='text' class='form-control' name='FirstName' value='" . $row['FirstName'] . "'></td>";
             echo "<td><input type='text' class='form-control' name='Surname' value='" . $row['Surname'] . "'></td>";
             echo "<td><input type='text' class='form-control' name='dob' value='" . $row['DOB'] . "'></td>";
+            echo "<td><input type='text' class='form-control' name='Privileges' value='" . $row['Privileges'] . "'></td>";
             echo "<td><input type='submit' name='insert' class='btn btn-primary' onclick='insertUser()' value='insert'></td>";
             echo "</tr>";
             echo "</form>";
@@ -44,6 +51,11 @@ function registerUser() {
             echo "$user";
             echo "<br>";
 
+            echo "<br>";
+            echo "Your privileges are: " .$userPrivilegeResult2;
+
+            echo "<br>";
+            echo "Legend: A = admin, U = adult";
         ?></div>
         <br>
         <p>Great to see you again</p>
@@ -62,7 +74,7 @@ function registerUser() {
 
         if (isset($_POST['update']))
         {
-            $updateQuerry = "UPDATE users SET FirstName = '$_POST[FirstName]', Surname = '$_POST[Surname]', Username = '$_POST[Username]', Password = '$_POST[Password]' ,DOB = '$_POST[dob]' WHERE UserID = '$_POST[hidden]'";
+            $updateQuerry = "UPDATE users SET FirstName = '$_POST[FirstName]', Surname = '$_POST[Surname]', Username = '$_POST[Username]', Password = '$_POST[Password]' ,DOB = '$_POST[dob]',Privileges = '$_POST[Privileges]' WHERE UserID = '$_POST[hidden]'";
             mysqli_query($conn, $updateQuerry) or die ("couldn't run query");
 //            echo "Record updated";
         }
@@ -83,6 +95,9 @@ function registerUser() {
 
         $result = mysqli_query($conn, "SELECT * FROM users ");
 
+//        if ($userPrivilegeResult2 == "A") {
+//
+//        }
         echo "<table border='1'>
             <tr>
                 <th>UserID</th>
@@ -91,6 +106,7 @@ function registerUser() {
                 <th>First Name</th>
                 <th>Surname</th>
                 <th>Date of birth</th>
+                <th>Privileges</th>
             </tr>";
 
         while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
@@ -102,6 +118,7 @@ function registerUser() {
             echo "<td><input type='text' class='form-control' name='FirstName' value='" . $row['FirstName'] . "'></td>";
             echo "<td><input type='text' class='form-control' name='Surname' value='" . $row['Surname'] . "'></td>";
             echo "<td><input type='text' class='form-control' name='dob' value='" . $row['DOB'] . "'></td>";
+            echo "<td><input type='text' class='form-control' name='Privileges' value='" . $row['Privileges'] . "'></td>";
             echo "<td><input type='submit' name='update' class='btn btn-success' onclick='update2()' value='update'></td>";
             echo "<td><input type='submit' name='delete' class='btn btn-danger'  onclick='deleted()' value='delete'></td>";
             echo "</tr>";
@@ -130,7 +147,22 @@ function registerUser() {
         echo "<br>";
         $age = floor($timeDifference / 31556926); // 31556926 is the number of seconds in a year
         echo "Your age is: " .$age;
+        if ($age >= 18)
+        {
+            echo "<br>";
+            echo "<b>You are an adult member</b>";
+
+        }
+        else
+        {
+            echo "<br>";
+            echo "<b>You are an junior member</b>";
+
+        }
+
+
         mysqli_close($conn);
+
         ?>
     </div>
 </div>
@@ -151,6 +183,13 @@ function registerUser() {
     }
 
 
+
+</script>
+
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
 </script>
 </body>
 </html>
