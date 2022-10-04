@@ -30,6 +30,21 @@ function registerUser() {
             echo "</form>";
         };
 
+function addMovie() {
+    echo "<form action='members.php' method='post'>";
+    echo "<tr>";
+    echo "<td><input type='text' class='form-control' name='hidden' placeholder='Do not need to be filled up  ' value='" . $row['MovieID'] . "'></td>";
+    echo "<td><input type='text' class='form-control' name='Title' value='" . $row['Title'] . "'></td>";
+    echo "<td><input type='text' class='form-control' name='Category' value='" . $row['Category'] . "'></td>";
+    echo "<td><input type='text' class='form-control' name='Type' value='" . $row['Type'] . "'></td>";
+    echo "<td><input type='text' class='form-control' name='Agerestricted' value='" . $row['Age restricted'] . "'></td>";
+    echo "<td><input type='text' class='form-control' name='Display1' value='" . $row['Display time 1'] . "'></td>";
+    echo "<td><input type='text' class='form-control' name='Display2' value='" . $row['Display time 2'] . "'></td>";
+    echo "<td><input type='text' class='form-control' name='Display3' value='" . $row['Display time 3'] . "'></td>";
+    echo "<td><input type='submit' name='delete' class='btn btn-danger'  onclick='insertMovie()' value='delete'></td>";
+    echo "</tr>";
+    echo "</form>";
+}
 
 
 ?>
@@ -69,6 +84,10 @@ function registerUser() {
             <button type="submit" name="submit" value="submit" class="btn btn-primary" >Logout</button>
         </form>
 
+
+
+
+
         <h2>Would you like to do some changes in Your database?</h2>
 
         <?php
@@ -98,6 +117,7 @@ function registerUser() {
 
         //        display all data depends on User Privileges
         if ($userPrivilegeResult2 == "A") {
+
 
                 echo "<table border='1'>
             <tr>
@@ -195,7 +215,6 @@ function registerUser() {
 
         }
 
-
         mysqli_close($conn);
 
         ?>
@@ -209,6 +228,9 @@ function registerUser() {
         alert("New user added");
     }
 
+    function insertMovie() {
+        alert("New movie added");
+    }
     function update2() {
         alert("User details updated!");
     }

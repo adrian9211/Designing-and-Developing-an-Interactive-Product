@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="age verification done">
-      <change beforePath="$PROJECT_DIR$/../HND Projects/age_verification/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/age_verification/link.txt" afterDir="false" />
+    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="Admin privileges test">
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/members.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HND Projects/age_verification/members.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/age_verification/members.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/396f1793-31fd-4f97-ac2f-6d2fafa893ee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/396f1793-31fd-4f97-ac2f-6d2fafa893ee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,40 +44,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/age_verification&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/file_uploader",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;mariadb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mariadb"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\file_uploader" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\age_verification" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\admin panel" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\pet_dropdown_menu" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\registration_and_login" />
-      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\Cookies &amp; Sessions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\database" />
@@ -104,7 +111,7 @@
       <workItem from="1664277968719" duration="10420000" />
       <workItem from="1664437769107" duration="599000" />
       <workItem from="1664877658705" duration="652000" />
-      <workItem from="1664882905981" duration="1993000" />
+      <workItem from="1664882905981" duration="6090000" />
     </task>
     <task id="LOCAL-00001" summary="Setup for folders on server">
       <created>1662463423405</created>
@@ -176,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664289002550</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Admin privileges test">
+      <created>1664885037507</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664885037507</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +218,7 @@
     <MESSAGE value="admin panel done" />
     <MESSAGE value="age verification initialization" />
     <MESSAGE value="age verification done" />
-    <option name="LAST_COMMIT_MESSAGE" value="age verification done" />
+    <MESSAGE value="Admin privileges test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Admin privileges test" />
   </component>
 </project>
