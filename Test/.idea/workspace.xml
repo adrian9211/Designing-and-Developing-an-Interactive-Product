@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="working script">
-      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/upload.php" afterDir="false" />
+    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="images upload and display script">
       <change beforePath="$PROJECT_DIR$/../HND Projects/file_uploader/members.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/members.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/396f1793-31fd-4f97-ac2f-6d2fafa893ee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/396f1793-31fd-4f97-ac2f-6d2fafa893ee.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -104,7 +103,7 @@
       <workItem from="1664277968719" duration="10420000" />
       <workItem from="1664437769107" duration="599000" />
       <workItem from="1664877658705" duration="652000" />
-      <workItem from="1664882905981" duration="12795000" />
+      <workItem from="1664882905981" duration="18399000" />
     </task>
     <task id="LOCAL-00001" summary="Setup for folders on server">
       <created>1662463423405</created>
@@ -190,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664889140273</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="images upload and display script">
+      <created>1665039213780</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665039213780</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +226,7 @@
     <MESSAGE value="age verification done" />
     <MESSAGE value="Admin privileges test" />
     <MESSAGE value="working script" />
-    <option name="LAST_COMMIT_MESSAGE" value="working script" />
+    <MESSAGE value="images upload and display script" />
+    <option name="LAST_COMMIT_MESSAGE" value="images upload and display script" />
   </component>
 </project>

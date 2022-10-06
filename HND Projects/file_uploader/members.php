@@ -42,7 +42,10 @@ function addMovie() {
     echo "<td><input type='time' class='form-control' name='Display1' value='" . $row['Display time 1'] . "'></td>";
     echo "<td><input type='time' class='form-control' name='Display2' value='" . $row['Display time 2'] . "'></td>";
     echo "<td><input type='time' class='form-control' name='Display3' value='" . $row['Display time 3'] . "'></td>";
-    echo "<td><input type='file' name='img'></td>";
+    echo "<td><input type='text' class='form-control' name='file_name' value='" . $row['file_name'] . "'></td>";
+    echo "<td><input type='text' class='form-control' name='uploaded_on' value='" . $row['uploaded_on'] . "'></td>";
+    echo "<td><input type='text' class='form-control' name='status' value='" . $row['status'] . "'></td>";
+    echo "<td><input type='file' name='file'></td>";
 //    echo "<td><input type='image' class='form-control' name='Img' value='" . $row['Img'] . "'></td>";
     echo "<td><input type='submit' name='insert' class='btn btn-primary'  onclick='insertMovie()' value='insert'></td>";
     echo "</tr>";
@@ -89,51 +92,54 @@ function addMovie() {
         if ($userPrivilegeResult2 == "A") {
 
             echo "<h2>Add movie</h2>";
-
-            if (isset($_POST['update'])) {
-                $updateQuerry = "UPDATE movies SET Title = '$_POST[Title]',Description = '$_POST[Description]', Category = '$_POST[Category]', Type = '$_POST[Type]', `Age restricted` = '$_POST[Agerestricted]' ,`Display time 1` = '$_POST[Display1]',`Display time 2` = '$_POST[Display2]',`Display time 3` = '$_POST[Display3]' WHERE MovieID = '$_POST[hidden]'";
-                mysqli_query($conn, $updateQuerry) or die ("couldn't run query");
-//            echo "Record updated";
-            }
-            if (isset($_POST['delete'])) {
-                $deleteQuerry = "DELETE FROM movies WHERE MovieID = '$_POST[hidden]'";
-                mysqli_query($conn, $deleteQuerry) or die ("couldn't run query");
-//            echo 'User deleted';
-            }
-
-            if (isset($_POST['insert'])) {
-                $insertQuerry = "INSERT INTO movies (Title, Description, Category, Type, `Age restricted`, `Display time 1`, `Display time 2`, `Display time 3`) VALUES ('$_POST[Title]','$_POST[Description]', '$_POST[Category]', '$_POST[Type]', '$_POST[Agerestricted]', '$_POST[Display1]', '$_POST[Display2]', '$_POST[Display3]')";
-                mysqli_query($conn, $insertQuerry)
-                or die ("couldn't run query");
-//            echo "New User record inserted";
-            }
-//            $imgTitle = $_POST['title'];
-//            $img = $_FILES['img']['name'];
-//
-//            if (move_uploaded_file($_FILES['img']['tmp_name'], "img/" . $_FILES['img']['name'])) {
-//                echo "Image uploaded";
-//            }
-//            else {
-//                echo "Image not uploaded";
-//
-//            }
-
             $statusMsg = '';
-
-// File upload path
             $targetDir = "uploads/";
             $fileName = basename($_FILES["file"]["name"]);
             $targetFilePath = $targetDir . $fileName;
             $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
 
-            if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])){
+            if(isset($_POST["update"]) ){
                 // Allow certain file formats
                 $allowTypes = array('jpg','png','jpeg','gif','JPG','PNG','JPEG','GIF');
                 if(in_array($fileType, $allowTypes)){
                     // Upload file to server
                     if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
                         // Insert image file name into database
-                        $insert = $conn->query("INSERT into images (file_name, uploaded_on) VALUES ('".$fileName."', NOW())");
+                        $update = $conn->query("UPDATE movies SET Title = '$_POST[Title]',Description = '$_POST[Description]', Category = '$_POST[Category]', Type = '$_POST[Type]', `Age restricted` = '$_POST[Agerestricted]' ,`Display time 1` = '$_POST[Display1]',`Display time 2` = '$_POST[Display2]',`Display time 3` = '$_POST[Display3]', file_name = '".$fileName."' WHERE MovieID = ".$_POST['hidden']);
+                        if($update){
+                            $statusMsg = "The file ".$fileName. " has been uploaded successfully.";
+                        }else{
+                            $statusMsg = "File upload failed, please try again.";
+                        }
+                    }else{
+                        $statusMsg = "Sorry, there was an error uploading your file.";
+                    }
+                }else{
+                    $statusMsg = 'Sorry, only JPG, JPEG, PNG, GIF, & PDF files are allowed to upload.';
+                }
+            }else{
+                $statusMsg = 'Please select a file to upload.';
+            }
+
+
+            if (isset($_POST['delete'])) {
+                $deleteQuerry = "DELETE FROM movies WHERE MovieID = '$_POST[hidden]'";
+                mysqli_query($conn, $deleteQuerry) or die ("couldn't run query");
+//            echo 'User deleted';
+            }
+
+
+            $statusMsg = '';
+
+
+            if(isset($_POST["insert"]) && !empty($_FILES["file"]["name"])){
+                // Allow certain file formats
+                $allowTypes = array('jpg','png','jpeg','gif','JPG','PNG','JPEG','GIF');
+                if(in_array($fileType, $allowTypes)){
+                    // Upload file to server
+                    if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
+                        // Insert image file name into database
+                        $insert = $conn->query("INSERT into  movies (Title, Description, Category, Type, `Age restricted`, `Display time 1`, `Display time 2`, `Display time 3`,file_name, uploaded_on) VALUES ('$_POST[Title]','$_POST[Description]', '$_POST[Category]', '$_POST[Type]', '$_POST[Agerestricted]', '$_POST[Display1]', '$_POST[Display2]', '$_POST[Display3]','".$fileName."', NOW())");
                         if($insert){
                             $statusMsg = "The file ".$fileName. " has been uploaded successfully.";
                         }else{
@@ -153,6 +159,43 @@ function addMovie() {
             echo $statusMsg;
 
 
+            if (isset($_POST['insert'])  && !empty($_FILES["file"]["name"])) {
+                // Allow certain file formats
+                $allowTypes = array('jpg','png','jpeg','gif','JPG','PNG','JPEG','GIF');
+                if(in_array($fileType, $allowTypes)){
+                    // Upload file to server
+                    if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
+                        // Insert image file name into database
+                        $insert = $conn->query("INSERT into movies (Title, Description, Category, Type, `Age restricted`, `Display time 1`, `Display time 2`, `Display time 3`,file_name, uploaded_on) VALUES ('$_POST[Title]','$_POST[Description]', '$_POST[Category]', '$_POST[Type]', '$_POST[Agerestricted]', '$_POST[Display1]', '$_POST[Display2]', '$_POST[Display3]','".$fileName."', NOW())");
+                        if($insert){
+                            $statusMsg = "The file ".$fileName. " has been uploaded successfully.";
+                        }else{
+                            $statusMsg = "File upload failed, please try again.";
+                        }
+                    }else{
+                        $statusMsg = "Sorry, there was an error uploading your file.";
+                    }
+                }else{
+                    $statusMsg = 'Sorry, only JPG, JPEG, PNG, GIF, & PDF files are allowed to upload.';
+                }
+            }else{
+                $statusMsg = 'Please select a file to upload.';
+//                $insertQuerry = "INSERT INTO movies (Title, Description, Category, Type, `Age restricted`, `Display time 1`, `Display time 2`, `Display time 3`,) VALUES ('$_POST[Title]','$_POST[Description]', '$_POST[Category]', '$_POST[Type]', '$_POST[Agerestricted]', '$_POST[Display1]', '$_POST[Display2]', '$_POST[Display3]')";
+//                mysqli_query($conn, $insertQuerry)
+//                or die ("couldn't run query");
+            echo "New User record inserted";
+            }
+            $imgTitle = $_POST['title'];
+            $img = $_FILES['img']['name'];
+
+            if (move_uploaded_file($_FILES['img']['tmp_name'], "img/" . $_FILES['img']['name'])) {
+                echo "Image uploaded";
+            }
+            else {
+                echo "Image not uploaded";
+
+            }
+
 
             $result = mysqli_query($conn, "SELECT * FROM movies");
 
@@ -167,7 +210,9 @@ function addMovie() {
                 <th>Display time 1</th>
                 <th>Display time 2</th>
                 <th>Display time 3</th>
-               
+                <th>File name</th>  
+                <th>Uploaded on</th>
+                <th>Status</th> 
             </tr>";
 
             while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
@@ -182,6 +227,9 @@ function addMovie() {
                 echo "<td><input type='time' class='form-control' name='Display1' value='" . $row['Display time 1'] . "'></td>";
                 echo "<td><input type='time' class='form-control' name='Display2' value='" . $row['Display time 2'] . "'></td>";
                 echo "<td><input type='time' class='form-control' name='Display3' value='" . $row['Display time 3'] . "'></td>";
+                echo "<td><input type='text' class='form-control' name='file_name' value='" . $row['file_name'] . "'></td>";
+                echo "<td><input type='text' class='form-control' name='uploaded_on' value='" . $row['uploaded_on'] . "'></td>";
+                echo "<td><input type='text' class='form-control' name='status' value='" . $row['status'] . "'></td>";
 //                echo "<td><input type='text' name='title' placeholder='Product title'></td>";
                 echo "<td><input type='file' name='file'></td>";
                 echo "<td><input type='submit' name='submit' value='Upload'></td>";
@@ -194,6 +242,7 @@ function addMovie() {
             echo "</table>";
         }
 
+
         else {
             echo "You are not an admin";
         }
@@ -201,31 +250,31 @@ function addMovie() {
 
 
 
-        <?php
-        // Include the database configuration file
-        include 'db.php';
-
-        // Get images from the database
-        $query = $conn->query("SELECT * FROM images ORDER BY uploaded_on DESC");
-
-        if($query->num_rows > 0){
-            while($row = $query->fetch_assoc()){
-                $imageURL = 'uploads/'.$row["file_name"];
-                ?>
-                <div class="card" style="width: 18rem;">
-                    <img src="<?php echo $imageURL; ?>" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            <?php }
-        }else{ ?>
-            <p>No image(s) found...</p>
-        <?php } ?>
-
-
+<!--        --><?php
+//        // Include the database configuration file
+//        include 'db.php';
+//
+//        // Get images from the database
+//        $query = $conn->query("SELECT * FROM movies ORDER BY uploaded_on DESC");
+//
+//        if($query->num_rows > 0){
+//            while($row = $query->fetch_assoc()){
+//                $imageURL = 'uploads/'.$row["file_name"];
+//                ?>
+<!--                <div class="card" style="width: 18rem;">-->
+<!--                    <img src="--><?php //echo $imageURL; ?><!--" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Card title</h5>-->
+<!--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            --><?php //}
+//        }else{ ?>
+<!--            <p>No image(s) found...</p>-->
+<!--        --><?php //} ?>
+<!---->
+<!---->
 
         <h2>Would you like to do some changes in Your database?</h2>
 
