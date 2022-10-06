@@ -159,44 +159,6 @@ function addMovie() {
             echo $statusMsg;
 
 
-            if (isset($_POST['insert'])  && !empty($_FILES["file"]["name"])) {
-                // Allow certain file formats
-                $allowTypes = array('jpg','png','jpeg','gif','JPG','PNG','JPEG','GIF');
-                if(in_array($fileType, $allowTypes)){
-                    // Upload file to server
-                    if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
-                        // Insert image file name into database
-                        $insert = $conn->query("INSERT into movies (Title, Description, Category, Type, `Age restricted`, `Display time 1`, `Display time 2`, `Display time 3`,file_name, uploaded_on) VALUES ('$_POST[Title]','$_POST[Description]', '$_POST[Category]', '$_POST[Type]', '$_POST[Agerestricted]', '$_POST[Display1]', '$_POST[Display2]', '$_POST[Display3]','".$fileName."', NOW())");
-                        if($insert){
-                            $statusMsg = "The file ".$fileName. " has been uploaded successfully.";
-                        }else{
-                            $statusMsg = "File upload failed, please try again.";
-                        }
-                    }else{
-                        $statusMsg = "Sorry, there was an error uploading your file.";
-                    }
-                }else{
-                    $statusMsg = 'Sorry, only JPG, JPEG, PNG, GIF, & PDF files are allowed to upload.';
-                }
-            }else{
-                $statusMsg = 'Please select a file to upload.';
-//                $insertQuerry = "INSERT INTO movies (Title, Description, Category, Type, `Age restricted`, `Display time 1`, `Display time 2`, `Display time 3`,) VALUES ('$_POST[Title]','$_POST[Description]', '$_POST[Category]', '$_POST[Type]', '$_POST[Agerestricted]', '$_POST[Display1]', '$_POST[Display2]', '$_POST[Display3]')";
-//                mysqli_query($conn, $insertQuerry)
-//                or die ("couldn't run query");
-            echo "New User record inserted";
-            }
-            $imgTitle = $_POST['title'];
-            $img = $_FILES['img']['name'];
-
-            if (move_uploaded_file($_FILES['img']['tmp_name'], "img/" . $_FILES['img']['name'])) {
-                echo "Image uploaded";
-            }
-            else {
-                echo "Image not uploaded";
-
-            }
-
-
             $result = mysqli_query($conn, "SELECT * FROM movies");
 
             echo "<table border='1'>
@@ -212,32 +174,73 @@ function addMovie() {
                 <th>Display time 3</th>
                 <th>File name</th>  
                 <th>Uploaded on</th>
-                <th>Status</th> 
+                <th>Status</th>     
+                <td>IMG</td>
             </tr>";
 
             while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                echo '<div class="col-md-3 col-sm-6 shadow-sm p-3 d-flex flex-column card">';
                 echo "<form action='members.php' method='post' enctype='multipart/form-data'>";
-                echo "<tr>";
-                echo "<td><input type='text' class='form-control' name='hidden' value='" . $row['MovieID'] . "'></td>";
-                echo "<td><input type='text' class='form-control' name='Title' value='" . $row['Title'] . "'></td>";
-                echo "<td><input type='text' class='form-control' name='Description' value='" . $row['Description'] . "'></td>";
-                echo "<td><input type='text' class='form-control' name='Category' value='" . $row['Category'] . "'></td>";
-                echo "<td><input type='text' class='form-control' name='Type' value='" . $row['Type'] . "'></td>";
-                echo "<td><input type='text' class='form-control' name='Agerestricted' value='" . $row['Age restricted'] . "'></td>";
-                echo "<td><input type='time' class='form-control' name='Display1' value='" . $row['Display time 1'] . "'></td>";
-                echo "<td><input type='time' class='form-control' name='Display2' value='" . $row['Display time 2'] . "'></td>";
-                echo "<td><input type='time' class='form-control' name='Display3' value='" . $row['Display time 3'] . "'></td>";
-                echo "<td><input type='text' class='form-control' name='file_name' value='" . $row['file_name'] . "'></td>";
-                echo "<td><input type='text' class='form-control' name='uploaded_on' value='" . $row['uploaded_on'] . "'></td>";
-                echo "<td><input type='text' class='form-control' name='status' value='" . $row['status'] . "'></td>";
-//                echo "<td><input type='text' name='title' placeholder='Product title'></td>";
-                echo "<td><input type='file' name='file'></td>";
-                echo "<td><input type='submit' name='submit' value='Upload'></td>";
-                echo "<td><input type='submit' name='update' class='btn btn-success' onclick='updateMovie()' value='update'></td>";
-                echo "<td><input type='submit' name='delete' class='btn btn-danger'  onclick='deleted()' value='delete'></td>";
-                echo "</tr>";
-                echo "</form>";
+                $imageURL = 'uploads/'.$row["file_name"];
+                // display image
+        ?>
+        <img class="card-img-top" src="<?php echo $imageURL; ?>" alt="" />
+        <?php
+
+//                echo '<div class="row"><img src=".$imageURL"  style="width:100%" class="shopImg my-2"></div>';
+                echo '<div class="row px-1 ms-2">' . $row['MovieID'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['Title'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['Description'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['Category'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['Type'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['Age restricted'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['Display time 1'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['Display time 2'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['Display time 3'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['file_name'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['uploaded_on'].'</div>';
+//                echo '<div class="row px-1 ms-2">' . $row['status'].'</div>';
+
+                echo '<div class="row px-1 ms-2"><input type="text" name="Title" class="form-control" value="' . $row['Title'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="text" name="Description" class="form-control" value="' . $row['Description'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="text" name="Category" class="form-control" value="' . $row['Category'] . '"></div>';
+
+                echo '<div class="row px-1 ms-2"><input type="text" name="Type" class="form-control" value="' . $row['Type'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="text" name="Agerestricted" class="form-control" value="' . $row['Age restricted'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="text" name="Display1" class="form-control" value="' . $row['Display time 1'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="text" name="Display2" class="form-control" value="' . $row['Display time 2'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="text" name="Display3" class="form-control" value="' . $row['Display time 3'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="text" name="file_name" class="form-control" value="' . $row['file_name'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="text" name="uploaded_on" class="form-control" value="' . $row['uploaded_on'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="text" name="status" class="form-control" value="' . $row['status'] . '"></div>';
+                echo '<div class="row px-1 ms-2"><input type="file" name="file" class="form-control"></div>';
+                echo '<div class="row px-1 ms-2"><input type="submit" name="submit" class="btn btn-success" value="Update"></div>';
+                echo '<div class="row px-1 ms-2"><input type="submit" name="submit" class="btn btn-danger" value="Delete"></div>';
+                echo '</form>';
+                echo '</div>';
             }
+//                echo "<tr>";
+//                echo "<td><input type='text' class='form-control' name='hidden' value='" . $row['MovieID'] . "'></td>";
+//                echo "<td><input type='text' class='form-control' name='Title' value='" . $row['Title'] . "'></td>";
+//                echo "<td><input type='text' class='form-control' name='Description' value='" . $row['Description'] . "'></td>";
+//                echo "<td><input type='text' class='form-control' name='Category' value='" . $row['Category'] . "'></td>";
+//                echo "<td><input type='text' class='form-control' name='Type' value='" . $row['Type'] . "'></td>";
+//                echo "<td><input type='text' class='form-control' name='Agerestricted' value='" . $row['Age restricted'] . "'></td>";
+//                echo "<td><input type='time' class='form-control' name='Display1' value='" . $row['Display time 1'] . "'></td>";
+//                echo "<td><input type='time' class='form-control' name='Display2' value='" . $row['Display time 2'] . "'></td>";
+//                echo "<td><input type='time' class='form-control' name='Display3' value='" . $row['Display time 3'] . "'></td>";
+//                echo "<td><input type='text' class='form-control' name='file_name' value='" . $row['file_name'] . "'></td>";
+//                echo "<td><input type='text' class='form-control' name='uploaded_on' value='" . $row['uploaded_on'] . "'></td>";
+//
+//                echo "<td><input type='text' class='form-control' name='status' value='" . $row['status'] . "'></td>";
+//                echo "<td><input type='text' name='title' placeholder='Product title'></td>";
+//                echo "<td><input type='file' name='file'></td>";
+//                echo "<td><input type='submit' name='update' class='btn btn-success' onclick='updateMovie()' value='update'></td>";
+//                echo "<td><input type='submit' name='delete' class='btn btn-danger'  onclick='deleted()' value='delete'></td>";
+//                echo "</tr>";
+
+//                echo "</form> </div>";
+//            }
             addMovie(); // calling function to insert new user
             echo "</table>";
         }
