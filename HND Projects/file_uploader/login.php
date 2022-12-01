@@ -33,7 +33,7 @@ if($count==1){
 <html>
 <head>
     <title>My Profile</title>
-    <link rel="stylesheet" href="style/style.css" title="style" />
+    <link rel="stylesheet" href="css/style.css" title="style" />
 </head>
 <body>
 <div id="main">

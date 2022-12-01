@@ -1,9 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+    <option name="SHOW_STRUCTURE" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="display img card/">
-      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/style/style.css" afterDir="false" />
+    <list default="true" id="39cc8e0b-7f83-4269-89a7-a70c2b8d76ae" name="Changes" comment="display img , update and delete">
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/contactstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/faqstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/jquery.slidey.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/medile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/popuo-box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/single.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/arrow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h1-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/h9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/img-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/m9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/n9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/new.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/news1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/play-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/jquery.dotdotdot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/jquery.slidey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/js/simplePlayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/list-css/basictable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/list-css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/list-css/table-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/list-js/jquery.basictable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/list-js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/list-js/jquery.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/movie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/news-css/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/file_uploader/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/file_uploader/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HND Projects/file_uploader/members.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HND Projects/file_uploader/members.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HND Projects/file_uploader/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/396f1793-31fd-4f97-ac2f-6d2fafa893ee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/396f1793-31fd-4f97-ac2f-6d2fafa893ee.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,43 +162,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/file_uploader",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/OneDrive - Edinburgh College/Edinburgh_College/Third year/Designing and Developing an Interactive Product/HND Projects/file_uploader&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mariadb&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PHP&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\file_uploader" />
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\file_uploader\style" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\age_verification" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\admin panel" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\pet_dropdown_menu" />
-      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\registration_and_login" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\Limelight-Cinema\includes" />
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\Limelight-Cinema" />
+      <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\file_uploader\style" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\database" />
       <recent name="E:\OneDrive - Edinburgh College\Edinburgh_College\Third year\Designing and Developing an Interactive Product\HND Projects\1" />
     </key>
@@ -105,7 +234,20 @@
       <workItem from="1664277968719" duration="10420000" />
       <workItem from="1664437769107" duration="599000" />
       <workItem from="1664877658705" duration="652000" />
-      <workItem from="1664882905981" duration="26365000" />
+      <workItem from="1664882905981" duration="35182000" />
+      <workItem from="1665138605803" duration="162000" />
+      <workItem from="1665138849330" duration="596000" />
+      <workItem from="1665486021830" duration="11373000" />
+      <workItem from="1665653137531" duration="2014000" />
+      <workItem from="1666861557742" duration="765000" />
+      <workItem from="1666862949795" duration="599000" />
+      <workItem from="1666876256137" duration="572000" />
+      <workItem from="1668781218099" duration="44000" />
+      <workItem from="1669113724901" duration="2073000" />
+      <workItem from="1669294867972" duration="8000" />
+      <workItem from="1669711747119" duration="79000" />
+      <workItem from="1669718212314" duration="3599000" />
+      <workItem from="1669722944209" duration="18771000" />
     </task>
     <task id="LOCAL-00001" summary="Setup for folders on server">
       <created>1662463423405</created>
@@ -212,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665049165403</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="display img , update and delete">
+      <created>1665054974039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665054974039</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +372,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -245,6 +406,7 @@
     <MESSAGE value="images upload and display script" />
     <MESSAGE value="updating works include image upload" />
     <MESSAGE value="display img card/" />
-    <option name="LAST_COMMIT_MESSAGE" value="display img card/" />
+    <MESSAGE value="display img , update and delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="display img , update and delete" />
   </component>
 </project>
