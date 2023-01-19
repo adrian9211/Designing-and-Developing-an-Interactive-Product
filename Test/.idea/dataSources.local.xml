@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="PS-222.4345.15">
+  <component name="dataSourceStorageLocal" created-in="PS-223.8214.64">
     <data-source name="@localhost [2]" uuid="da99348a-8c1f-4db0-bd87-8cc9baffdb12">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
       <secret-storage>master_key</secret-storage>
@@ -44,6 +44,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
+            <name qname="Limelight-Cinema" />
             <name qname="mysql" />
             <name qname="performance_schema" />
             <name qname="PHP_testing_project" />
@@ -56,6 +57,11 @@
         <enabled>true</enabled>
         <ssh-config-id>794ab2dc-23ae-4d76-a3d0-1ae5ee008444</ssh-config-id>
       </ssh-properties>
+    </data-source>
+    <data-source name="@localhost" uuid="ef328540-6430-465a-bf6c-bc394a233476">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MARIADB" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
     </data-source>
   </component>
 </project>
